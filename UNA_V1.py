@@ -45,3 +45,4 @@ Type "help", "copyright", "credits" or "license()" for more information.
         remove_role_from_user(username, role_to_remove)
         print(f"{role_to_remove} removed successfully.")
     else:
+        print(f"{username} does not have all the specified roles.")
